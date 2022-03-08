@@ -1,0 +1,58 @@
+/* ////colors /////
+blue: 
+#181998
+yellow:
+#ffce3e
+grey: 
+#333333 */
+
+.container > div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2em;
+}
+
+
+.container > div:nth-child(1n) {
+  background-color: #96ceb4;	
+}
+
+.container > div:nth-child(3n) {
+  background-color: #88d8b0;
+}
+
+.container > div:nth-child(2n) {
+      background-color: #ff6f69;
+}
+
+.container > div:nth-child(4n) {
+      background-color: #ffcc5c;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: 400px 400px ;
+    grid-template-rows: 400px 400px;
+    grid-gap: 3px;
+    background-color: aqua;
+}
+
+.lemon-bite {
+    background-image: url(/img/lemon-bite.jpg);
+    background-size: 300px;
+    background-repeat: no-repeat;
+}
+
+.stairs {
+    background-image: url(/img/color-block-stairs.jpg);
+    background-size: 200px;
+    background-repeat: no-repeat;
+
+}
+
+.block {
+    background-image: url(/img/color-block.jpg);
+    background-size: 250px;
+    background-repeat: no-repeat;
+}
