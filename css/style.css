@@ -157,9 +157,9 @@ html {
 .yellow-main2 {
     background-color: #ffce3e;
     width: 650px;
-    height: 540px;
+    height: 470px;
     position: relative;
-    margin-top: 1700px;
+    margin-top: 1100px;
 }
 
 .blue-back3 {
@@ -173,9 +173,12 @@ html {
 
 .container4 {
     display: grid;
-    grid-template-columns: 300px 300px;
+    grid-template-columns: 500px 300px;
     grid-template-rows: 80px;
-    margin-top: 240px;
+    grid-gap: 5px;
+    margin-top: 150px;
+    margin-left: 160px;
+    position: absolute;
   }
 
 .ysweater-img {
@@ -192,3 +195,92 @@ html {
     text-align: center;
     margin-top: 100px;
 }
+
+.container5 {
+    display: grid;
+    grid-template-columns: 100px 500px;
+    grid-template-rows: 400px;
+    grid-gap: 5px;
+    margin-top: 150px;
+    margin-left: 30px;
+    position: absolute;
+  }
+
+.yellow-rec {
+    background-color: #ffce3e;
+}
+
+.article-4 {
+    align-items: center;
+    margin-top: 60px;
+    margin-left: 25px;
+}
+
+.container6 {
+    display: grid;
+    grid-template-columns: 300px 500px;
+    grid-template-rows: 400px;
+    grid-gap: 5px;
+    margin-top: 550px;
+    margin-left: 30px;
+    position: relative;
+  }
+
+.blue-shirt-lemon {
+    height: 600px;
+}
+
+.white-block {
+    background-color: white;
+    margin-left: 100px;
+    margin-top: -200px;
+    position: relative;
+    width: 400px;
+    height: 150px;
+}
+
+.milan {
+    text-align:left;
+    font-size: 60px;
+}
+
+.blue-block-c5 {
+    background-color: #181998;
+    height: 410px;
+    width: 900px;
+    margin-top: -200px;
+    margin-left: 200px;
+}
+
+.container7 {
+    display: grid;
+    grid-template-columns: 300px 300px;
+    grid-template-rows: 500px;
+    grid-gap: 200px;
+    margin-left: 30px;
+    margin-top: 100px;
+    position: relative;
+    align-items: center;
+  }
+
+.yellow-dress {
+    height: 450px;
+    width: 350px;
+    margin-top: 95px;
+    margin-bottom: 25px;
+}
+
+.blue-shirt {
+    height: 450px;
+    width: 350px;
+}
+
+.blue-back-c7 {
+    background-color: #181998;
+    height: 560px;
+    width: 900px;
+    margin-top: -101px;
+    margin-left: 200px;
+    position: absolute;
+}
+
