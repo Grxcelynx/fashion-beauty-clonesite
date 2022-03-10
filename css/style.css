@@ -293,9 +293,9 @@ html {
 
 .container8 {
     display: grid;
-    grid-template-columns: 400px 400px;
+    grid-template-columns: 500px 490px;
     grid-template-rows: 500px;
-    margin-top: 100px;
+    margin-top: 200px;
     position: relative;
     align-items: center;
     width:max-content;
@@ -303,43 +303,45 @@ html {
     background-size: cover;
   }
 
+  iframe {
+      margin-left: 65px;
+  }
 
 
 * {
     box-sizing: border-box;
   }
+
   
   input[type=text], select, textarea {
     width: 100%;
-    padding: 12px;
-    border: 1px solid #ccc;
-    border-radius: 4px;
+    padding: 2px;
+    border: 1px solid #ffce3e;
     resize: vertical;
+    background-color: transparent;
   }
   
-  label {
-    padding: 12px 12px 12px 0;
-    display: inline-block;
-  }
   
   input[type=submit] {
-    background-color: #04AA6D;
-    color: white;
-    padding: 12px 20px;
-    border: none;
-    border-radius: 4px;
+    background-color: #ffce3e;
+    color: black;
+    padding: 5px 10px;
+    border: solid 1px #ffce3e;
     cursor: pointer;
-    float: right;
+    float: left;
+    margin-left: 105px;
   }
   
   input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: transparent;
+    color: #ffce3e;
   }
   
   .container {
     border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px;
+    background-color: #181998;
+    margin-right: 65px;
+
   }
   
   .col-25 {
