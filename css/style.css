@@ -7,27 +7,33 @@ grey:
 #333333 */
 
 html {
-    height: 100vh;
-    width: 100vh;
-    top: 100vh;
+
 }
 
-.container > div {
+/* .parent-container {
+    height: auto;
+    width: 100%;
+} */
+.form > div {
     display: flex;
     justify-content: center;
     align-items: center;
     font-size: 2em;
 }
-
+.container {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
 .container1 {
     display: grid;
-    grid-template-columns: 300px 400px ;
+    grid-template-columns: 300px 400px;
     grid-template-rows: 400px 300px;
     grid-gap: 9px;
     margin-top: 200px;
-    float: right;
     margin-left: 200px;
-    /* background-color: aqua; */
+    left: 30%;
+    position: relative;
 }
 
 .lemon-bite {
@@ -61,27 +67,30 @@ html {
 .yellow-back1 {
     background-color:#ffce3e;
     height: 400px;
-    width: 1100px;
     position: relative;
     margin-top: 300px;
-    /* top: 50%; */
+    justify-content: left;
+    display: flex;
 }
 
 .blue-back1 {
     background-color: #181998;
-    width: 850px;
+    width: 65%;
     height: 1000px;
     position: absolute;
     margin-top: -200px;
+    display: flex;
+    justify-content: right;
 }
 
 .yellow-back2 {
-    background-color:#ffce3e;
+    background-color: #ffce3e;
     height: 300px;
-    width: 650px;
+    width: 65%;
     position: absolute;
     margin-top: 300px;
-    /* top: 50%; */
+    display: flex;
+    justify-content: right;
 }
 
 .container2 {
@@ -107,18 +116,21 @@ html {
 
   .yellow-back-main {
     background-color: #ffce3e;
-    width: 650px;
-    height: 1100px;
+    width: 65%;
     position: absolute;
-    margin-top: 600px;
+    display: flex;
+    justify-content: right;
+    top: 172%;
   }
 
   .blue-back2 {
-    background-color:#181998;
+    background-color: #181998;
     height: 300px;
-    width: 1100px;
-    position: absolute;
+    position: relative;
     margin-top: 100px;
+    display: flex;
+    justify-content: left;
+    top: 500px;
 }
 
   .container3 {
@@ -126,8 +138,10 @@ html {
     grid-template-columns: 300px 300px 300px;
     grid-template-rows: 80px;
     align-items: center;
-    margin-left: 200px;
     margin-top: 600px;
+    left: 30%;
+    justify-content: left;
+    position: relative;
 }
 
   .pineapple-img {
@@ -154,10 +168,12 @@ html {
 
 .yellow-main2 {
     background-color: #ffce3e;
-    width: 650px;
+    width: 65%;
     height: 470px;
-    position: relative;
-    margin-top: 1100px;
+    position: absolute;
+    justify-content: left;
+    display: flex;
+    top: 900%;
 }
 
 .blue-back3 {
@@ -174,9 +190,11 @@ html {
     grid-template-columns: 500px 300px;
     grid-template-rows: 80px;
     grid-gap: 5px;
-    margin-top: 150px;
     margin-left: 160px;
-    position: absolute;
+    position: relative;
+    justify-content: center;
+    top: 100%;
+    left: 30%;
   }
 
 .ysweater-img {
@@ -199,7 +217,11 @@ html {
     grid-gap: 5px;
     margin-top: 150px;
     margin-left: 30px;
-    position: absolute;
+    position: relative;
+    justify-content: center;
+
+
+
   }
 
 .yellow-rec {
@@ -332,7 +354,7 @@ html {
     color: #ffce3e;
   }
   
-  .container {
+  .form {
     border-radius: 5px;
     background-color: #181998;
     margin-right: 65px;
