@@ -37,7 +37,7 @@ nav {
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 100%;
+    width: 30%;
     transform: translateX(100%);
     transition: transform 0.5s ease-in;
 
@@ -371,8 +371,9 @@ margin-left: 25px;
   display: flex;
   justify-content: center;
   position:relative;
-  /* left: 10%; */
-
+  background-repeat: no-repeat;
+  background-image: linear-gradient(to left,
+  #181998 20%, #181998 20% 40%, #181998 40% 50%, transparent 50% 80%, transparent 80%);
 }
 
 .grid6 {
@@ -381,13 +382,13 @@ margin-left: 25px;
   grid-template-rows: 700px;
   grid-gap: 5px;
   position: relative;
-  /* top: 780%; */
-
   justify-content: right;
+  
 }
 
 .blue-shirt-lemon {
   height: 600px;
+  
 }
 
 .white-block {
