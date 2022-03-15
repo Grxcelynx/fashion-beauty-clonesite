@@ -498,20 +498,20 @@ input[type=submit]:hover {
       }
     }
 .footer {
-    position:fixed;
+    position:absolute;
     left: 0;
     bottom: 0;
     width: 100%;
     background-color: #333333;
     color: white;
     text-align: center;
-    align-items: center;
+    align-items:baseline;
 }
 
 .footer-text {
     align-items: center;
     text-align: center;
     padding: 10px;
-    margin: 20px;
+    margin: 10px;
     font-size: small;
 }
