@@ -1,8 +1,101 @@
+
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
 html {
   display: flex;
   margin: 0;
   padding: 0;
 }
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+    background-color: lightgrey;
+}
+
+.logo {
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 20px;
+}
+
+.navlinks {
+    position: absolute;
+    right: 0px;
+    height: 92vh;
+    top: 8vh;
+    background-color: rgb(236, 4, 4);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    transform: translateX(100%);
+    transition: transform 0.5s ease-in;
+}
+
+.navlinks li {
+    list-style: none;
+    justify-content: space-around;
+    margin: 10px;
+}
+
+.navlinks a {
+    color: aliceblue;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bold;
+    font-size: 24px;
+}
+
+.burger {
+    display: block;
+}
+
+.burger div {
+    width: 25px;
+    height: 3px;
+    color: rgb(241, 19, 19);
+    background-color: grey;
+    margin: 5px;
+}
+
+
+
+.nav-active {
+    transform: translateX(0%);
+}
+
+@keyframes navLinkFade{
+    from{
+        opacity: 0;
+        transform: translateX(50px);
+    }
+
+    to{
+        opacity: 1;
+        transform: translateX(0px);
+    }
+
+}
+
+.toggle .line1 {
+    background-color: yellow;
+}
+
+.toggle .line2 {
+    background-color: blue;
+}
+
+.toggle .line3 {
+    background-color: red;
+}
+
 
 .container {
   display: flex;
