@@ -498,14 +498,17 @@ input[type=submit]:hover {
       }
     }
 .footer {
-    position:absolute;
+    display: flex;
+    position:relative;
     left: 0;
     bottom: 0;
     width: 100%;
     background-color: #333333;
     color: white;
     text-align: center;
-    align-items:baseline;
+    align-items:center;
+    justify-content: center;
+    top: 230%;
 }
 
 .footer-text {
@@ -514,4 +517,5 @@ input[type=submit]:hover {
     padding: 10px;
     margin: 10px;
     font-size: small;
+    background-color: #333333;
 }
