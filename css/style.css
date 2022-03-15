@@ -111,41 +111,47 @@ nav {
 
 .blue-block1 {
   background-color: #181998;
-  height: 1650px;
-  width: 100%;
+  height: 1250px;
+  width: 75%;
   position: relative;
   display: flex;
   margin: 0;
   padding: 0;
   justify-content: center;
 }
+
+.lemon-bite-grid {
+  background-repeat: no-repeat;
+  background-image: linear-gradient(to right,
+  #181998 20%, #181998 20% 40%, #181998 40% 50%, #181998 50% 75%, transparent 75%);
+}
 .grid1 {
   display: grid;
-  grid-template-columns: 300px 400px;
-  grid-template-rows: 400px 300px;
-  grid-gap: 12px;
+  grid-template-columns: 600px 600px;
+  grid-template-rows: 600px 500px;
+  grid-gap: 15px;
   position: relative;
   justify-content: center;
-  /* top: 30%; */
-  /* left: 35%; */
- 
+  margin-left: 250px;
 }
 
 .lemon-bite {
   background-image: url(/img/lemon-bite.jpg);
-  background-size: 300px;
+  background-size: 400px;
   background-repeat: no-repeat;
+  margin-left: 50px;
+
 }
 
 .stairs {
   background-image: url(/img/color-block-stairs.jpg);
-  background-size: 200px;
+  background-size: 300px;
   background-repeat: no-repeat;
 }
 
 .block {
   background-image: url(/img/color-block.jpg);
-  background-size: 250px;
+  background-size: 350px;
   background-repeat: no-repeat;
 }
 
@@ -176,26 +182,24 @@ nav {
   background-color:#ffce3e;
   height: 300px;
   width: 50%;
-  position: relative;
+  position: absolute;
   justify-content: center;
   display: flex;
 }
 
 .grid2 {
   display: grid;
-  grid-template-columns: 100px 600px ;
+  grid-template-columns: 100px 835px ;
   grid-template-rows: 100px 100px;
   align-items: center;
   position: relative;
-  justify-content: left;
-  /* left: 30%; */
-  /* top: 20%; */
-  /* width: 100%; */
-  
+  justify-content: center;
+  margin-top: 50px;
 }
+
 .dot {
-  height: 35px;
-  width: 35px;
+  height: 45px;
+  width: 45px;
   background-color: #181998;
   border-radius: 50%;
   display: inline-block;
@@ -240,41 +244,51 @@ nav {
   display: flex;
   /* top: 100%; */
   width: 50%;
-  margin: 5px;
 }
 
 .grid3 {
   display: grid;
-  grid-template-columns: 300px 300px 300px;
-  grid-gap: 150px;
-  grid-template-rows: 800px;
+  grid-template-columns: 400px 400px 400px;
+  grid-gap: 60px;
+  grid-template-rows: 950px;
   align-items: center;
   position: relative;
   justify-content: center;
   /* top: 500%; */
   width: 100%;
+  background-repeat: no-repeat;
+  background-image: linear-gradient(to right,
+  #ffce3e 20%, #ffce3e 20% 40%, #ffce3e 40% 50%, transparent 50% 80%, transparent 80%);
 
 }
 
 .pineapple-img {
-  height: 360px;
-  width: 260px;
+  margin-left: 55px;
+  height: 460px;
+  width: 360px;
+}
+
+.pineapple-article {
+  width: 340px;
+  margin-left: 55px;
 }
 
 .papaya-img {
-height: 360px;
-width: 260px;
+height: 460px;
+width: 360px;
 margin-top: 200px;
+margin-left: 25px;
 }
 
 .lemon-eye-img {
-  height: 250px;
-  width: 300px;
+  height: 350px;
+  width: 400px;
   margin-top: 200px;
 }
 
 .lemon-eye {
-  margin-top: 100px;
+  margin-top: 300px;
+  text-align: right;
 } 
 
 
@@ -286,15 +300,23 @@ margin-top: 200px;
   display: flex;
   /* top: 665%; */
   width: 50%;
+  
 }
 
 .grid4 {
   display: grid;
-  grid-template-columns: 400px 500px;
+  grid-template-columns: 500px 500px;
   grid-template-rows: 900px;
   grid-gap: 15px;
   position: relative;
   justify-content: right;
+  background-image: linear-gradient(to right,
+  #ffce3e 20%, #ffce3e 20% 40%, #ffce3e 40% 45%, #ffce3e 45% 66%, transparent 66%);
+}
+
+.shadow {
+  margin-left: 25px;
+  margin-top: 20px;
 }
 .ysweater-img {
   height: 500px;
@@ -361,7 +383,7 @@ margin-top: 200px;
   position: relative;
   /* top: 780%; */
 
-  justify-content: center;
+  justify-content: right;
 }
 
 .blue-shirt-lemon {
