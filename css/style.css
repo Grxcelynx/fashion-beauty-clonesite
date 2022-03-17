@@ -5,7 +5,7 @@ p {
   font-family: 'Raleway', sans-serif;
 }
 
-h1 {
+h1 ,h2 {
   font-family: 'Montserrat', sans-serif;
 }
 
@@ -122,7 +122,7 @@ nav {
 
 .blue-block1 {
   /* background-color: #181998; */
-  height: 1250px;
+  height: 1200px;
   width: 100%;
   position: relative;
   display: flex;
@@ -136,59 +136,73 @@ nav {
 
 .blue-block1::before {
   content: '';
-  height: 300px;
+  height: 500px;
   width: 100%;
   background-color: #ffce3e;
   position:relative;
-  top: 30%;
+  top: 50%;
   left: 60%;
   z-index: -1;
 }
 
 .lemon-bite-grid {
+  height: 1200px;
   background-repeat: no-repeat;
   background-image: linear-gradient(to right,
   #181998 20%, #181998 20% 40%, #181998 40% 50%, #181998 50% 75%, transparent 75%);
 }
 .grid1 {
   display: grid;
-  grid-template-columns: 500px 600px;
-  grid-template-rows: 700px 500px;
-  grid-gap: 15px;
+  grid-template-columns: 600px 500px;
+  grid-template-rows: 1110px;
+  grid-gap: 30px;
   position: relative;
   justify-content: center;
   margin-left: 250px;
+  /* background-repeat: no-repeat;
+  background-image: linear-gradient(to right,
+  #181998 20%, #181998 20% 40%, #181998 40% 50%, #181998 50% 75%, transparent 75%); */
+
 }
+
 
 .lemon-bite {
   background-image: url(/img/lemon-bite.jpg);
   background-size: 600px;
   background-repeat: no-repeat;
-  margin-left: 50px;
-
+  /* margin-left: 50px; */
+  height: 700px;
 }
 
 .stairs {
   background-image: url(/img/color-block-stairs.jpg);
   height: 600px;
-  width: 300px;
+  width: 330px;
   background-repeat: no-repeat;
 }
 
 .block {
   background-image: url(/img/color-block.jpg);
-  background-size: 350px;
+  background-size: 400px;
   background-repeat: no-repeat;
+  margin-top: 30px;
+  height: 400px;
+}
+
+.article-section {
+  padding: 20px;
 }
 .article-text-header {
   color: white;
-  margin: 25px;
-  /* font-family: 'Montserrat', sans-serif; */
+  font-size: 90px;
+  font-weight: 700;
+  font-family: 'Montserrat', sans-serif;
+  margin-bottom: 10px;
 }
 .article-text {
-  font-size: medium;
+  font-size: large;
   color: white;
-  margin: 25px;
+  line-height: 35px;
 }
 
 /* .yellow-block1 {
@@ -222,7 +236,7 @@ nav {
 
 .grid2 {
   display: grid;
-  grid-template-columns: 100px 835px ;
+  grid-template-columns: 100px 845px ;
   grid-template-rows: 100px 100px;
   align-items: center;
   position: relative;
@@ -231,8 +245,8 @@ nav {
 }
 
 .dot {
-  height: 45px;
-  width: 45px;
+  height: 65px;
+  width: 65px;
   background-color: #181998;
   border-radius: 50%;
   display: inline-block;
@@ -240,13 +254,19 @@ nav {
   align-items: center;
   color: white;
   font-size: x-large;
-  /* font-family: 'Montserrat', sans-serif; */
+  padding: 10px;
 } 
+
 
 .dot-article {
   display: flex;
   position:relative;
   justify-content: center;
+}
+
+.d-article p {
+  font-weight: 500;
+  line-height: 25px;
 }
 /* 
 .yellow-block4 {
@@ -299,7 +319,7 @@ nav {
 .grid3 {
   display: grid;
   grid-template-columns: 400px 400px 400px;
-  grid-gap: 60px;
+  grid-gap: 50px;
   grid-template-rows: 950px;
   align-items: center;
   position: relative;
@@ -317,14 +337,19 @@ nav {
   width: 360px;
 }
 
-.pineapple-article-header {
-  /* font-family: 'Montserrat', sans-serif; */
-}
-
-
 .pineapple-article {
   width: 340px;
   margin-left: 55px;
+  margin-top: 65px;
+}
+
+.pineapple-article h1 {
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+.pineapple-article p {
+  line-height: 25px;
 }
 
 .papaya-img {
@@ -339,13 +364,19 @@ margin-left: 25px;
   width: 400px;
   margin-top: 200px;
 }
-.lemon-eye-header {
-  /* font-family: 'Montserrat', sans-serif; */
+.lemon-eye h1 {
+  font-weight: 400;
+  margin-bottom: 20px;
 }
 .lemon-eye {
-  margin-top: 260px;
+  margin-top: 220px;
   text-align: right;
 } 
+
+.lemon-eye p {
+  line-height: 25px;
+  margin-left: 25px;
+}
 
 
 .yellow-block6 {
@@ -471,7 +502,7 @@ margin-left: 25px;
 
 .milan-week::before {
   content: '';
-  height: 500px;
+  height: 600px;
   width: 75%;
   background-color: #181998;
   position:absolute;
@@ -484,7 +515,7 @@ margin-left: 25px;
 .grid6 {
   display: grid;
   grid-template-columns: 470px 750px;
-  grid-template-rows: 710px;
+  grid-template-rows: 800px;
   grid-gap: 15px;
   position: relative;
   justify-content: left;
@@ -503,8 +534,10 @@ margin-left: 25px;
 }
 
 .blue-shirt-lemon {
-  height: 1000px;
-}
+  height: 600px;
+  width: 600px;
+  object-fit: cover; 
+  object-position: 100% 0}
 
 .white-block {
   background-color: white;
