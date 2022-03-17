@@ -299,7 +299,7 @@ nav {
 .grid3 {
   display: grid;
   grid-template-columns: 400px 400px 400px;
-  grid-gap: 60px;
+  grid-gap: 50px;
   grid-template-rows: 950px;
   align-items: center;
   position: relative;
@@ -317,14 +317,19 @@ nav {
   width: 360px;
 }
 
-.pineapple-article-header {
-  /* font-family: 'Montserrat', sans-serif; */
-}
-
-
 .pineapple-article {
   width: 340px;
   margin-left: 55px;
+  margin-top: 65px;
+}
+
+.pineapple-article h1 {
+  margin-bottom: 20px;
+  font-weight: 400;
+}
+
+.pineapple-article p {
+  line-height: 25px;
 }
 
 .papaya-img {
@@ -339,13 +344,19 @@ margin-left: 25px;
   width: 400px;
   margin-top: 200px;
 }
-.lemon-eye-header {
-  /* font-family: 'Montserrat', sans-serif; */
+.lemon-eye h1 {
+  font-weight: 400;
+  margin-bottom: 20px;
 }
 .lemon-eye {
-  margin-top: 260px;
+  margin-top: 220px;
   text-align: right;
 } 
+
+.lemon-eye p {
+  line-height: 25px;
+  margin-left: 25px;
+}
 
 
 .yellow-block6 {
