@@ -171,7 +171,7 @@ background-color: #181998;
 }
 
 .stairs {
-  background-image: url(../img/color-block-stairs.jpg);
+  background-image: url(./img/color-block-stairs.jpg);
   height: 600px;
   width: 330px;
   background-repeat: no-repeat;
