@@ -171,14 +171,14 @@ background-color: #181998;
 }
 
 .stairs {
-  background-image: url(./img/color-block-stairs.jpg);
+  background-image: url(./fashion-beauty-clonesite/img/color-block-stairs.jpg);
   height: 600px;
   width: 330px;
   background-repeat: no-repeat;
 }
 
 .block {
-  background-image: url(./img/color-block.jpg);
+  background-image: url(./fashion-beauty-clonesite/img/color-block.jpg);
   background-size: 400px;
   background-repeat: no-repeat;
   margin-top: 30px;
