@@ -164,14 +164,14 @@ background-color: #181998;
 
 
 .lemon-bite {
-  background-image: url(./fashion-beauty-clonesite/img/lemon-bite.jpg);
+  background-image: url(../img/lemon-bite.jpg);
   background-size: 600px;
   background-repeat: no-repeat;
   height: 700px;
 }
 
 .stairs {
-  background-image: url(./fashion-beauty-clonesite/img/color-block-stairs.jpg);
+  background-image: url(../img/color-block-stairs.jpg);
   height: 600px;
   width: 330px;
   background-repeat: no-repeat;
@@ -179,7 +179,7 @@ background-color: #181998;
 
 
 .block {
-  background-image: url(./fashion-beauty-clonesite/img/color-block.jpg);
+  background-image: url(../img/color-block.jpg);
   background-size: 400px;
   background-repeat: no-repeat;
   margin-top: 30px;
