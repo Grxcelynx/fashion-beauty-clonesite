@@ -1,6 +1,6 @@
 # NicePage Template Clone
 
-This is a copy of the template from NicePage. This was made to showcase my abiilty to ccopy a design and foramt of a template utilizng my wn code/format to re-create this specific page style. 
+This is a copy of the template from NicePage. This was made to showcase my ability to copy a design and format of a template utilizing my own code/format to re-create this specific page style. 
 
 ## View and Interact
 https://grxcelynx.github.io/fashion-beauty-clonesite/
@@ -19,6 +19,7 @@ https://grxcelynx.github.io/fashion-beauty-clonesite/
 
 To edit this template and make it your own, follow two simple steps below: 
 
+* Link to NicePage template: https://nicepage.com/ht/38862/summer-trends-html-template
 ```
 Clone this repo:
 SSH: git@github.com:Grxcelynx/fashion-beauty-clonesite.git
