@@ -4,6 +4,7 @@ This is a copy of the template from NicePage. This was made to showcase my abili
 
 ## View and Interact
 https://grxcelynx.github.io/fashion-beauty-clonesite/
+<img src="https://github.com/Grxcelynx/fashion-beauty-clonesite/blob/main/img/site-vids%20(2).gif">
 ## Contents 
 * [Tech Stack](#stack)
 * [Run On Desktop](#run)
